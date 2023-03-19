@@ -31,7 +31,7 @@ alert(greetings + username);
 //7.
 let time = 34;
 console.log('Старт поездки. Осталось минут: ' + time);
-time = 19;
+time -= 15;
 console.log('Немного сторис в соцсетях. Осталось минут: ' + time);
 time = 9;
 console.log('Немного не новостей, но событий. Осталось минут: ' + time);
